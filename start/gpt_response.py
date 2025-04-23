@@ -24,6 +24,6 @@ def get_gpt_response(prompt):
 
 # 테스트용 실행
 if __name__ == "__main__":
-    user_input = input("사용자 질문을 입력하세요: ")
+    user_input = input("사용자 질문을 입력하세요.: ")
     answer = get_gpt_response(user_input)
     print("🧠 GPT 응답:", answer)
