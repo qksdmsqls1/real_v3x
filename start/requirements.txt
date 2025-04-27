@@ -1,0 +1,8 @@
+openai
+python-dotenv
+sounddevice
+numpy
+scipy
+openai-whisper
+pyttsx3
+torch
