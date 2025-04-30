@@ -7,4 +7,4 @@ openai-whisper
 pyttsx3
 torch
 google-cloud-texttospeech
-playsound
+pygame
