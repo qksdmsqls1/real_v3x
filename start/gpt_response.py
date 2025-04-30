@@ -3,6 +3,7 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
+from text_to_speech import speak 
 
 # .env 파일에서 API 키 불러오기
 load_dotenv()
@@ -43,6 +44,7 @@ if __name__ == "__main__":
                 break
             answer = get_gpt_response(user_input)
             print("🤖 GPT:", answer)
+            speak(answer)
 
     except KeyboardInterrupt:
         print("\n👋 [Ctrl+C] 감지: 프로그램 정상 종료합니다.")
